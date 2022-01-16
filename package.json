@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "axios": "^0.24.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^12.0.3",
+    "glob": "^7.2.0",
+    "mongoose": "^6.1.6",
+    "node.js": "^0.0.1-security",
+    "promisify": "^0.0.3",
+    "reconlx": "^2.5.2",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "name": "hotbv2",
+  "version": "1.0.2",
+  "description": "Strategy guide and tool for Game of Thrones: Conquest",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Bane/hotbv2.git"
+  },
+  "author": "The Bane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Bane/hotbv2/issues"
+  },
+  "homepage": "https://github.com/The-Bane/hotbv2#readme"
+}
