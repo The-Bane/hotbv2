@@ -43,13 +43,13 @@ module.exports = async (client) => {
     });
     client.on("ready", async () => {
         // Register for a single guild
-        await client.guilds.cache
-            .get("925173978488778812")
-            .commands.set(arrayOfSlashCommands);
-                console.log("Slash commands registered locally.");
+        //await client.guilds.cache
+            //.get("925173978488778812")
+            //.commands.set(arrayOfSlashCommands);
+                //console.log("Slash commands registered locally.");
 
         // Register for all the guilds the bot is in
-        // await client.application.commands.set(arrayOfSlashCommands);
+        await client.application.commands.set(arrayOfSlashCommands);
     });
 
     // mongoose
